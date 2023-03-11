@@ -10,7 +10,7 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: mscatalog
+        - id: catalog-service
           uri: lb://catalog-service
           predicates:
             - Path=/catalog/**
