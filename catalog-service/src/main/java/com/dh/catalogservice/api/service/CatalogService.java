@@ -11,7 +11,7 @@ import java.util.Objects;
 
 @Service
 public class CatalogService implements ICatalogService {
-    private final RestTemplate clienteRest;
+    /*private final RestTemplate clienteRest;
 
     public CatalogService(RestTemplate clienteRest) {
         this.clienteRest = clienteRest;
@@ -28,5 +28,5 @@ public class CatalogService implements ICatalogService {
                 });
 
         return Objects.requireNonNull(response.getBody());
-    }
+    }*/
 }
